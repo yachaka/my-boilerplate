@@ -1,0 +1,14 @@
+<!doctype>
+<html>
+<head>
+  <title>Hello World</title>
+  <script type="text/javascript" src="<%= htmlWebpackPlugin.options.react %>"></script>
+  <script type="text/javascript" src="<%= htmlWebpackPlugin.options.reactDOM %>"></script>
+</head>
+<body>
+  <div id="app">{{appMarkup}}</div>
+  <script>
+    window.__RELAY_PAYLOADS__ = {{relayPayloads}};
+  </script>
+</body>
+</html>

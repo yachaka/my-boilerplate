@@ -1,0 +1,20 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.json
+module.file_ext=.less
+module.file_ext=.graphql
+module.file_ext=.css
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+suppress_type=$FlowFixMe
+module.name_mapper='^\.graphql$' -> 'actual-empty-object'
+
+[strict]

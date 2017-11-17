@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "flow",
+    [
+      "es2015",
+      { modules: false }
+    ],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "relay",
+    "react-hot-loader/babel",
+    "transform-class-properties"
+  ]
+}

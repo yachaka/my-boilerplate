@@ -1,0 +1,9 @@
+
+type Query {
+  hello: Hello!
+  whatsUp: String!
+}
+
+type Hello {
+  you: String!
+}
